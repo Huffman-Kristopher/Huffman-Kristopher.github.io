@@ -1,0 +1,74 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+@import url('https://fonts.googleapis.com/css?family=Dosis|ZCOOL+XiaoWei');
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+/*Main page tags*/
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    background-color: #155577;
+	font-family:'Dosis', sans-serif;
+    color: #fff;
+    height: 1200px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:'ZCOOL XiaoWei', serif ;
+}
+h1 {
+    font-size: 3em;
+    color: #bbbc19
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    color: #bbbc19
+}
+/*Navigation*/
+ul{
+    font-family:'ZCOOL XiaoWei', serif ;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0px;
+   }
+a:link{
+	color: #bb711a;
+    text-decoration: none;
+    padding: 16px;
+}
+a:visited{
+	color: #c88d47;
+}
+a:hover{
+	color: #bbbc19;
+    border: 3px double #bbbc19;
+}
+a:active{
+    color: #8c4d00; 
+}
+/*Header and footer*/
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 100%;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #59167d;
+    color: whitesmoke;
+    border-radius: 5%;
+}
+
+footer {
+    font-size: 12px;
+}
+/*Images*/
+header img {
+    width:160px;
+    height: 250px;
+    float: right;
+}
