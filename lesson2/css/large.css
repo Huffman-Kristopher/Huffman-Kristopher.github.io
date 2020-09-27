@@ -7,7 +7,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@media only screen and ((min-width: 32.5em) ){@import url('https://fonts.googleapis.com/css?family=Dosis|ZCOOL+XiaoWei');
+@media only screen and ((min-width: 64.75em) ){
+@import url('https://fonts.googleapis.com/css?family=Dosis|ZCOOL+XiaoWei');
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -58,7 +59,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .GridCntr{
     display:grid;
-    grid: 655px / auto auto;
+    grid: 655px / auto auto auto;
     grid-row-gap: 10px;
     grid-column-gap: 5px;
 }
