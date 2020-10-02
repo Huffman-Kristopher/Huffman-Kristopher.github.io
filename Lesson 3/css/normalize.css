@@ -27,7 +27,6 @@ body {
     line-height: 32px;
     background-color: #2b4162;
 	font-family:'Dosis', sans-serif;
-    color: #fff;
     height: 1200px;
 }
 
@@ -91,8 +90,8 @@ header, main, footer {
 header, footer, footer a {
     text-align: center;
     background-color: #4b3f72;
-    color: whitesmoke;
-    border-radius: 20px;
+    
+    
 }
 
 footer {
@@ -121,6 +120,7 @@ a:link{
 	color: #2b882d;
     text-decoration: none;
     padding: 6px;
+    font-size: 16px;
 }
 a:visited{
 	color:  #2b4162;
@@ -169,6 +169,14 @@ p{
     font-size:16px;
     color: #4b5043;
 
+}
+#playfair{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+#raleway{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
 }
 
 /**
