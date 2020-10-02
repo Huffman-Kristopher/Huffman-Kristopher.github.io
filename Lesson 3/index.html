@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-us">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <title>WDD 230 Assignment Portal | Kris Huffman | BYU-Idaho</title>
+     <meta name="description" content=" Assignments for BYU-I WDD 230">
+     <link rel="stylesheet" href="css/normalize.css">
+ </head>
+ <body onload="updateInfo()">
+     <script>
+function updateInfo() {
+  var update = new Date(document.lastModified);
+  document.getElementById("updateText").innerHTML = update;
+}
+</script>
+    <header>
+         <a href="#" id="logo"><img src="images/weatherLogo.png" alt="Thermostat and cloud icon." ></a>
+        <h1>ForecastToday.org Target Audience</h1>
+         <ul id="headNav">
+            <li id="headNav"><a href="#">target-audience</a></li>
+            <li id="headNav"><a href="#">color-scheme</a></li>
+            <li id="headNav"><a href="#">typography</a></li>
+        </ul>
+        </header>
+    <main>
+        <h2>ForecastToday.org planning document page</h2>
+
+        <article>
+            <h3>Site name</h3>
+                <p>Forecasttoday.org cost is $12.00 for registration via domains.google.com.</p><br>
+            <h3>Purpose</h3>
+            <p>The Primary purpose of this site is to deliver reliable and accurate weather forecasts for individuals so they can plan their day and any activities they may have outdoors. 
+                
+            The secondary purpose for this site is for extended planning for the user. The user can see tomorrow and 10day forecast options, this will allow for the user to get a better idea of the future weather conditions. 
+            </p><br>
+            
+            
+        </article>
+    </main>
+    <footer>
+        <p>&copy; Kristopher Huffman, Washington, USA. <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+        <p id="updateText"></p>
+    </footer>
+ </body>
+</html>
