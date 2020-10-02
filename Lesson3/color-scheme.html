@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-us">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <title>WDD 230 Assignment Portal | Kris Huffman | BYU-Idaho</title>
+     <meta name="description" content=" Assignments for BYU-I WDD 230">
+     <link rel="stylesheet" href="css/normalize.css">
+ </head>
+ <body onload="updateInfo()">
+     <script>
+function updateInfo() {
+  var update = new Date(document.lastModified);
+  document.getElementById("updateText").innerHTML = update;
+}
+</script>
+    <header>
+        <a href="https://Huffman-Kristopher.github.io/Lesson3/index.html" id="logo"><img src="images/weatherLogo.png" alt="Thermostat and cloud icon." ></a>
+        <h1>ForecastToday.org color-scheme</h1>
+         <ul id="headNav">
+            <li id="headNav"><a href="https://Huffman-Kristopher.github.io/Lesson3/target-audience.html">target-audience</a></li>
+            <li id="headNav"><a href="https://Huffman-Kristopher.github.io/Lesson3/color-scheme.html">color-scheme</a></li>
+            <li id="headNav"><a href="https://Huffman-Kristopher.github.io/Lesson3/typography.html">typography</a></li>
+        </ul>
+        </header>
+    <main>
+        <h2>ForecastToday.org planning document page</h2>
+
+        <article>
+
+            <h3>color-scheme</h3>
+            <img src="images/colorscheme.png" alt="image of colors." id="imgC">
+            <h3>Background</h3>
+            <p>Body #2b4162<br>
+                Header and footer #4b3f72<br>
+            </p>
+            <h3>Font colors</h3>
+            <p>h1  #2b882d<br>
+                h2  #2b882d<br>
+                h3  #2b882d<br>
+                p  #4b5043 <br>
+
+            <h3>Navigation and links</h3>
+
+            <p>Link Normal:  #2b4162<br>
+                Link Hover: #4b5043<br>
+                Link Active: #4b5043<br>
+                Link Visited: #2b4162<br>
+                header and footer text: #2b4162<br>
+            </p><br>
+            </article>
+    </main>
+    <footer>
+        <p>&copy; Kristopher Huffman, Washington, USA. <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+        <p id="updateText"></p>
+    </footer>
+ </body>
+</html>
