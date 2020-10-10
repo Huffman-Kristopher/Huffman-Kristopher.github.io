@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway');
+
+/*headings********************/
+body {
+    font-size: 16px; 
+    font-family: 'Raleway', sans-serif;
+    line-height: 32px;
+    background-color: #2b4162;
+    height: 1200px;
+}
+
+
+header {
+  background-color: #4b3f72;
+  color: white;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+}
+
+main {
+
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+   font-size: 30px;
+   margin: 0.67em 0;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Playfair Display', serif; ;
+    color: #2b882d;
+}
+
+.motto {
+  font-style: italic;
+  letter-spacing: 1pt;
+  margin-left: 20px;
+  font-size: .9rem;
+}
+
+/*End of headings*************/
+
+/* Navigation ***************/
+
+ul{
+    font-family: 'Playfair Display', serif;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0px;
+   }
+a:link{
+	color: #2b882d;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 16px;
+}
+a:visited{
+	color:  #2b4162;
+}
+a:hover{
+	color: #4b5043;
+    border: 1px double #2b882d;
+}
+a:active{
+    color: #4b5043; 
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #2b882d;
+  font-weight: 700;
+}
+
+
+.navigation a:hover {
+  color: #2b882d;
+  background-color: #4b5043;
+}
+
+
+.responsive li {
+  display: block;
+}
+
+/* End of Navigation ***************/
+
+
+h2 {
+  text-align: center;
+}
+
+
+.box {
+  display: block;
+  margin: 10px auto;
+  border: 2px dashed #4b3f72;
+  padding: 15px;
+  background-color: #ff7f50;
+}
+
+#bottombox {
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #4b3f72;
+  text-align: center;
+  padding: .5rem;
+  color: white;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+}
