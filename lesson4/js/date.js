@@ -1,6 +1,10 @@
-
-var d = new Date(),
-    months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-    days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-document.getElementById("date").innerHTML = days;
-return days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear()
+const daynames = [
+    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
+const months = [
+    "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+const d = new Date();
+const dayName = daynames[d.getDay()];
+const monthName = months[d.getMonth()];
+const year = d.getFullYear();
+const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+document.getElementById("date").textContent = fulldate;
