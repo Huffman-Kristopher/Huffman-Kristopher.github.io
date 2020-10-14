@@ -1,0 +1,82 @@
+@media only screen and (min-width: 80em) {
+
+  .box {
+    max-width: 700px;
+  }
+  footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    }
+  header img {
+    width: 100px;
+    height: 100px;
+}
+nav{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#firstsection {
+    max-width: 720px;
+
+  }
+/*forecast*/
+}
+#hide,
+	grid-container,
+	grid-item {
+		display: grid;
+	}
+
+	#hide {
+		margin-bottom: 2em;
+	}
+
+	#hide h3 {
+		text-align: center;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		background-color: #ff7f50;
+		padding: 2px;
+		max-width: 520px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+
+	.grid-header {
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 1px solid rgba(0, 0, 0, 0.8);
+		padding: 20px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.grid-image {
+		background-color: rgba(255, 255, 255, 0.8);
+		padding: 20px 20px 5px 20px;
+		text-align: center;
+		border-left: 1px solid rgba(0, 0, 0, 0.8);
+		border-right: 1px solid rgba(0, 0, 0, 0.8);
+	}
+
+	.grid-f {
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 1px solid rgba(0, 0, 0, 0.8);
+		border-top: none;
+		padding: 5px 20px 20px 20px;
+		text-align: center;
+	}
+
+	/*end of forecast */
