@@ -27,6 +27,11 @@ nav{
     max-width: 720px;
 
   }
+#heroimage {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
 /*forecast*/
 }
 #hide,

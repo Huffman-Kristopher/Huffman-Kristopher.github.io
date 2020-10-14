@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway');
 
-/*headings********************/
+/*headings*/
 body {
     font-size: 16px; 
     font-family: 'Raleway', sans-serif;
@@ -9,6 +9,9 @@ body {
     height: 1200px;
 }
 
+#banner{
+background-color: #2b882d;    
+}
 
 header {
   background-color: #4b3f72;
@@ -39,7 +42,9 @@ h1 {
 }
 h2 {
     font-size: 25px;
+     text-align: center;
 }
+
 h3 {
     font-size: 20px;
 }
@@ -61,7 +66,7 @@ grid-item {
 }
 /*End of headings*************/
 
-/* Navigation ***************/
+/* Navigation */
 
 .nav1btn {
   border: none;
@@ -127,12 +132,23 @@ a:active{
   display: block;
 }
 
-/* End of Navigation ***************/
+
+/* End of Navigation */
 
 
-h2 {
+/* Social media */
+.icon-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 4px;
+}
+
+.icon {
+  padding: 0px;
   text-align: center;
 }
+/*End of Social media */
+
 
 
 .box {
@@ -180,7 +196,7 @@ footer a {
 #heroimage {
   display: block;
   margin: 10px auto;
-  width: 50%;
+  width: 45%;
 }
 .details {
   display: grid;
@@ -231,7 +247,7 @@ footer a {
   opacity: .65;
 
 }
-
+/* Articles */
 #article {
   display: flex;
   flex-direction: column-reverse;
@@ -248,9 +264,10 @@ footer a {
   font-size: small;
 }
 
-
+/* End of Articles */
 #hide,
 grid-container,
 grid-item {
   display: none;
 }
+

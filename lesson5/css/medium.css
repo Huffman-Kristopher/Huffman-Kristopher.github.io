@@ -19,7 +19,11 @@
 		font-size: larger;
 		margin-left: 17px;
 	}
-
+#heroimage {
+  display: block;
+  margin: 10px auto;
+  width: 60%;
+}
 	/*End of header*/
 
 
