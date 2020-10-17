@@ -165,8 +165,9 @@ a:active{
 
 #bottombox {
   margin-bottom: 0px;
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 #map{

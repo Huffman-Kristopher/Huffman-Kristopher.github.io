@@ -3,6 +3,13 @@
   .box {
     max-width: 700px;
   }
+    #bottombox {
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 700px;
+  height: auto;
+}
   footer {
     width: 80%;
     margin-left: auto;

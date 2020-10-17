@@ -116,6 +116,8 @@
   margin-bottom: 0px;
   display: grid;
   grid-template-columns: auto auto;
+  width: 550px;
+  height: auto;
 }
 #map{
     grid-column: 1/ span 2;
