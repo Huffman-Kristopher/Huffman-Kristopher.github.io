@@ -4,7 +4,7 @@ function output() {
 
     let output = windChill(tempF, speed);
 
-    document.getElementById("windchill").textContent = output.toFixed(2);
+    document.getElementById("windChill").textContent = output.toFixed(2);
 }
 
 function windChill(tempF, speed) {
