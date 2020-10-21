@@ -1,14 +1,26 @@
+function output() {
+    let tempF = parseFloat(document.getElementById("high").textContent);
+    let speed = parseFloat(document.getElementById("speed").textContent);
 
-function Output() {
-	
-	var high = parseFloat(document.getElementById('high').value);
-	var speed = parseFloat(document.getElementById('speed').value);
-	var chillfactor = windChill(high, speed);
-	document.getElementById('windChill').innerHTML = chillfactor ;
+    let output = windChill(tempF, speed);
+
+    document.getElementById("windchill").textContent = output.toFixed(2);
 }
 
-function windChill(high, speed){
-	
-	var factor = ( 35.74 + 0.6215 * high - 35.75 * Math.pow(speed,0.16) + 0.4275 * high * Math.pow(speed,0.16) );
-	return factor;
+function windChill(tempF, speed) {
+    if (tempF <= 50 && speed >= 3) {
+        let t = tempF;
+        let s = speed;
+        let f = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16));
+
+        return f;
+
+    }
+    else {
+
+        let na = "N/A";
+        return na;
+    }
 }
+
+output()
