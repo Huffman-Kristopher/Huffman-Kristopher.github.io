@@ -45,6 +45,7 @@ nav{
 	grid-container,
 	grid-item {
 		display: grid;
+        visibility: visible;
 	}
 
 	#hide {
