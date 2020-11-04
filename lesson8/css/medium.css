@@ -153,3 +153,11 @@ form{
 
 	max-width: 20rem;
   }
+select::-ms-expand {
+    display: none;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+}
