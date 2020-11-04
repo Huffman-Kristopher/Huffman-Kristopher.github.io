@@ -1,0 +1,72 @@
+@media only screen and (min-width: 60em) {
+
+  .box {
+    max-width: 700px;
+  }
+    #bottombox {
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 700px;
+  height: auto;
+}
+  footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    }
+  header img {
+    width: 100px;
+    height: 100px;
+}
+nav{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#firstsection {
+    max-width: 720px;
+
+  }
+#heroimage {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+/*forecast*/
+}
+#hide,
+	grid-container,
+	grid-item {
+		display: grid;
+        visibility: visible;
+	}
+
+	#hide {
+		margin-bottom: 2em;
+	}
+
+	#hide h3 {
+		text-align: center;
+	}
+
+
+	/*end of forecast */
+img {
+  border-radius: 15px;
+  z-index: 1;
+  box-shadow: 0 0 30px #444;
+
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
