@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-us">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <title>WDD 230 Assignment Portal | Kris Huffman | BYU-Idaho</title>
+     <meta name="description" content=" Assignments for BYU-I WDD 230">
+      <link rel="shortcut icon" href="images/favicon.ico">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+ 
+    <header>
+        <a href="https://Huffman-Kristopher.github.io/lesson8/stormcenter.html" id="logo"><img src="images/weatherLogo.png" alt="Thermostat and cloud icon." ></a>
+        <div id="banner"><p>&#127869; Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion. &#127869;</p></div>
+        <section class="headings">
+            <h1>Forecast Today</h1>
+            <div class="motto">What's it Like Out There?</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation" id="nav1">
+            <li class="nav1Btn"><a class="menu" href="#"> Menu</a></li>
+            <li class="nav1Btn"><a href="#">Home</a></li>
+            <li class="nav1Btn"><a class="active" href="preston-6.html">Preston</a></li>
+            <li class="nav1Btn"><a href="#">Soda Springs</a></li>
+            <li class="nav1Btn"><a href="#">Fish Haven</a></li>
+            <li class="nav1Btn"><a href="https://Huffman-Kristopher.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="nav1Btn"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+<main>
+<h2>Storm Center</h2>
+    <h3>Report a Storm</h3>
+    <p>Please use the following form to report a storm in your area.</p>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name* <input type="text" name="fullName" required pattern="[A-z\s]{5,}"
+                        placeholder="Full Name"></label>
+                <label class="top">eMail:
+                    <input type="email" name="email" required placeholder="user@email.org"></label>
+                <label class="top">Phone number:
+                    <input type="tel" name="phone" required placeholder="###-###-####">
+                </label>
+                <label class="top" for="num">Zip Code:
+                    <input type="number" id="num" name="num" required></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="date"></label>
+
+                <label class="top">Storm Type
+                    <input type="text" name="stormType" list="stormType">
+                    <datalist id="stormType">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </label>
+
+                <label>Storm Severity &nbsp;&nbsp;&nbsp;
+                    <input type="range" name="severity" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                    <datalist id="tickmarks">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
+                </label>
+
+
+                <label class="top">Storm Region
+                    <select name="stormRegion">
+                        <option value="">Select Region &#9662;</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+
+                <div>User in-danger level</div>
+                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Details</legend>
+                <label class="top">Comments<br><textarea name="textArea"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" name="button" value="Submit Storm Report" class="submitBtn">
+        </form>
+    </main>
+ <footer>
+        <p>&copy; Kristopher Huffman, Washington, USA. <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+        <span id="date"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menuNav.js"></script>
+    <script src="js/wayfinderActive.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFontLoad.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/rating.js"></script>
+    </body>
+</html>

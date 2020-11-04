@@ -132,3 +132,24 @@ img {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+/*form stuff*/
+form{
+	max-width: 30em;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  textarea {
+	width: 30em; 
+	height:10em;
+  }
+  form input.submitBtn{
+	max-width: 20rem;
+
+  }
+
+  form label.top input,
+  form label.top select {
+
+	max-width: 20rem;
+  }
