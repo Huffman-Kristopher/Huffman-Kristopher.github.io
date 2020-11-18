@@ -1,0 +1,172 @@
+@media only screen and (min-width: 50em) {
+
+	.box {
+		max-width: 500px;
+	}
+
+	/*Header */
+	header img {
+		width: 85px;
+        height: 85px;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+#heroimage {
+  display: block;
+  margin: 10px auto;
+  width: 60%;
+}
+	/*End of header*/
+
+
+	/* Navigation */
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	/*End of navigation*/
+/*forecast*/
+}
+#hide,
+	grid-container,
+	grid-item {
+		display: grid;
+        visibility: visible;
+	}
+
+	#hide {
+		margin-bottom: 2em;
+	}
+
+	#hide h3 {
+		text-align: center;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		background-color: #ff7f50;
+		padding: 2px;
+		max-width: 520px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	/*end of forecast */
+
+	#article {
+		display: block;
+		margin: 10px auto 10px auto;
+	}
+
+	#article img {
+		float: right;
+		border: 1px solid #bbb;
+		padding: .25rem;
+		margin: .5rem .25rem .5rem 1.25rem;
+	}
+
+	#bottombox {
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 550px;
+  height: auto;
+}
+#map{
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+}
+
+#contact{
+    grid-column: 4/ span 2;
+    grid-row: 1;
+}
+
+#socialbtns{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+	#address {
+		text-align: left;
+	}
+
+
+	/*Header */
+	header img {
+		width: 80%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+img {
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #444;
+    width: auto;
+  }
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*form stuff*/
+form{
+	max-width: 30em;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  textarea {
+	width: 30em; 
+	height:10em;
+  }
+  form input.submitBtn{
+	max-width: 20rem;
+
+  }
+
+  form label.top input,
+  form label.top select {
+
+	max-width: 20rem;
+  }
+select::-ms-expand {
+    display: none;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+}
