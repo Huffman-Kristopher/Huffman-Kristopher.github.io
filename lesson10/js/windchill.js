@@ -1,5 +1,6 @@
+
 function output() {
-    let tempF = parseFloat(document.getElementById("high").textContent);
+    let tempF = parseFloat(document.getElementById("temp").textContent);
     let speed = parseFloat(document.getElementById("speed").textContent);
 
     let output = windChill(tempF, speed);

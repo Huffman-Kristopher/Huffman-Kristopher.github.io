@@ -17,3 +17,4 @@ fetch(weatherSummary)
         speed.textContent = `${jsObject.wind.speed} mph`;
 
     });
+
