@@ -335,12 +335,17 @@ figcaption{
     text-align: center;
     color: #ff7f50;
 }
-.town{
+.cards{
+  display: flex;
   margin: 10px auto;
   border: 2px dashed #4b3f72;
   padding: 15px;
   background-color: #ff7f50;
 }
+  .cards img {
+    max-width: 250px;
+  }
+
 /* form stuff*/
 
 main h2, h3, p{
